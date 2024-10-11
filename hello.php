@@ -60,7 +60,7 @@ function hello_dolly() {
 	printf(
 		'<p id="dolly"><span class="screen-reader-text">%s </span><span dir="ltr"%s>%s</span></p>',
 		esc_html__( 'Quote from Hello Dolly song, by Jerry Herman:', 'hello-dolly' ),
-		$lang,
+		$lang, // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		esc_html( $chosen )
 	);
 }
