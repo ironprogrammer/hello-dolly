@@ -59,9 +59,9 @@ function hello_dolly() {
 
 	printf(
 		'<p id="dolly"><span class="screen-reader-text">%s </span><span dir="ltr"%s>%s</span></p>',
-		__( 'Quote from Hello Dolly song, by Jerry Herman:', 'hello-dolly' ),
+		esc_html__( 'Quote from Hello Dolly song, by Jerry Herman:', 'hello-dolly' ),
 		$lang,
-		$chosen
+		esc_html( $chosen )
 	);
 }
 
