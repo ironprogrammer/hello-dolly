@@ -13,7 +13,7 @@ Author URI: https://ma.tt/
 */
 
 function hello_dolly_get_lyric() {
-	/** These are the lyrics to Hello Dolly */
+	// These are the lyrics to Hello Dolly.
 	$lyrics = "Hello, Dolly
 Well, hello, Dolly
 It's so nice to have you back where you belong
