@@ -1,6 +1,6 @@
 === Hello Dolly ===
 Contributors: matt, wordpressdotorg
-Stable tag: 1.7.2
+Stable tag: 1.7.3
 Tested up to: 6.6
 Requires at least: 4.6
 License: GPLv2 or later
