@@ -10,6 +10,8 @@ Description: This is not just a plugin, it symbolizes the hope and enthusiasm of
 Author: Matt Mullenweg
 Version: 1.7.2
 Author URI: http://ma.tt/
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
 
 function hello_dolly_get_lyric() {
